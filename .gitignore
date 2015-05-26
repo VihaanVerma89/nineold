@@ -1,0 +1,49 @@
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+
+# Optional Fields : for older project formats
+/*/out
+/*/*/build
+/*/*/production
+*.iws
+*.ipr
+*~
+*.swp
+*.iml
+
+# External Libraries that we dont wanna push to git
+# libraries/
+JustUnFollow/crashlytics.properties
+JustUnFollow/src/main/assets/crashlytics-build.properties
+JustUnFollow/src/main/res/values/com_crashlytics_export_strings.xml
+JustUnFollow/src/main/java/com/justunfollow/android/twitter/fragment/TimerAsyncTask.java
